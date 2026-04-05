@@ -67,15 +67,6 @@ return {
     },
   },
   {
-    'folke/noice.nvim',
-    event = 'VeryLazy',
-    opts = {},
-    dependencies = {
-      'MunifTanjim/nui.nvim',
-      'rcarriga/nvim-notify',
-    },
-  },
-  {
     'sphamba/smear-cursor.nvim',
     opts = {
       enabled = true,
@@ -85,9 +76,10 @@ return {
       distance_stop_animating = 0.3,
     },
   },
-  {
-    'pmizio/typescript-tools.nvim',
-    dependencies = { 'nvim-lua/plenary.nvim', 'neovim/nvim-lspconfig' },
-    opts = {},
-  },
+
+  -- {
+  --   'pmizio/typescript-tools.nvim',
+  --   dependencies = { 'nvim-lua/plenary.nvim', 'neovim/nvim-lspconfig' },
+  --   opts = {},
+  -- },
 }
